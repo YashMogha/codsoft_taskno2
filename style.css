@@ -1,0 +1,85 @@
+nav {
+    /* background-color: rgb(20, 20, 105) ; */
+    background-color: rgb(59 59 167);;
+  }
+   .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 1%;
+  font-weight: bold;
+  word-spacing: 2px;
+}
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+    font-size: large;
+  }
+#home{
+  border: 3px solid;
+  background-color:rgb(20, 20, 105) ;
+}
+#home-intro{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+#home-intro h1{
+  font-size: 30px;
+}
+.img{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+} 
+ .image{
+  border-radius: 5%;
+ }
+ #Skills h1{
+font-size: 45px;
+ }
+ #About{
+  /* border: 3px solid; */
+  background-color:#bebeff;
+ }
+ #About p{
+  font-size: 18px;
+ }
+ input{
+  display: block;
+  margin: 15px auto;
+  padding: 3px 0px;
+  width: 100%;
+  text-align: center;
+ }
+ input[type="submit"]{
+   background-color: black;
+   color: white;
+   cursor:pointer;
+   transition: 1s;
+ }
+ input[type="submit"]:hover{
+  background-color: rgb(72, 36, 105);
+ }
+ #copyright{
+  background-color: black;
+  color: white;
+  padding: 4px;
+  font-size: 17px;
+
+ }
+ @media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  position: absolute;
+  right: 5%;
+  width: 30%;
+  justify-content: space-evenly;
+  }
+  #home{
+  height: 90vh;
+}
+#home-intro h1{
+  font-size: 40px;
+}
+}
